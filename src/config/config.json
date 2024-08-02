@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Commerceplate",
+    "title": "3Dabs",
     "base_url": "https://tf-commerceplate.netlify.app/",
     "base_path": "/",
     "trailing_slash": false,
@@ -9,7 +9,7 @@
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
     "logo_height": "27",
-    "logo_text": "Commerceplate"
+    "logo_text": "3Dabs"
   },
 
   "settings": {
