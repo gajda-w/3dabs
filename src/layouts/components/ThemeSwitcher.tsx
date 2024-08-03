@@ -3,6 +3,7 @@
 import config from "@/config/config.json";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import clsx from "clsx";
 
 const ThemeSwitcher = ({ className }: { className: string }) => {
   const { theme_switcher } = config.settings;
@@ -28,7 +29,7 @@ const ThemeSwitcher = ({ className }: { className: string }) => {
           />
           <label htmlFor="theme-switcher">
             <span className="sr-only">theme switcher</span>
-            <span>
+            <span className={clsx({ "lg:-translate-x-6": theme === "light" })}>
               <svg
                 className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-100 dark:opacity-0"
                 viewBox="0 0 56 56"
