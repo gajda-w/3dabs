@@ -50,7 +50,7 @@ const HeroSlider = ({ products }: { products: Product[] }) => {
                 {item.featuredImage && (
                   <ImageFallback
                     src={item.featuredImage.url}
-                    className="mx-auto w-[388px] lg:w-full"
+                    className="mx-auto w-[388px] lg:w-full rounded-xl"
                     width={507}
                     height={385}
                     alt="banner image"

@@ -53,7 +53,7 @@ const CallToAction = ({ data }: { data: PageData }) => {
                     width={543}
                     height={390}
                     alt="cta-image"
-                    className="mx-auto"
+                    className="mx-auto rounded-xl"
                     priority
                   />
                 </div>
